@@ -1,44 +1,125 @@
-# Hotel Booking Application
+# 🏨 Hotel Booking Application
 
 This project is a hotel reservation management system developed as a bachelor's thesis.
-
-## Overview
-The application allows users to:
-- Book hotel rooms
-- Reserve spa services
-- Reserve conference rooms
-
-It includes:
-- Android mobile application for clients
-- Desktop application for administrators
-- Backend implemented using PHP and MySQL
-
-## Technologies Used
-- Java (Android & Desktop)
-- XML (Android UI)
-- PHP (Backend)
-- MySQL (Database)
-- XAMPP / phpMyAdmin
-
-## Architecture
-The application follows a client-server architecture:
-- Android app communicates with backend via HTTP requests
-- PHP scripts handle business logic and database operations
-- MySQL stores reservation and user data
-
-## Features
-- User registration and login
-- Room booking system
-- Spa reservation
-- Conference room reservation
-- Admin interface for managing reservations
-
-## How to Run
-1. Start XAMPP (Apache + MySQL)
-2. Import `hotel.sql` into MySQL
-3. Place PHP scripts in `htdocs`
-4. Run Android app from Android Studio
+It includes both a **Desktop application (Java Swing)** and an **Android application**.
 
 ---
 
-Developed by Mihai Covasan
+## 🚀 Features
+
+* User authentication (Register / Login)
+* Room booking system
+* Spa reservation
+* Conference room reservation
+* Reservation management (search & checkout)
+* MySQL database integration
+
+---
+
+## 💻 Desktop Application
+
+The desktop application is built using **Java Swing** and provides full reservation management.
+
+### Screenshots
+
+#### 🔐 Login
+
+![Login Desktop](images/desktop/login-desktop.png)
+
+#### 📝 Register
+
+![Register Desktop](images/desktop/register-desktop.png)
+
+#### 📋 Menu
+
+![Menu Desktop](images/desktop/menu-desktop.png)
+
+#### 📊 Reservations Panel
+
+![Reservations Desktop](images/desktop/desktop.png)
+
+---
+
+## 📱 Android Application
+
+The Android app allows users to book hotel services directly from mobile devices.
+
+### Screenshots
+
+#### 🔐 Login
+
+![Login Android](images/android/login.png)
+
+#### 📝 Register
+
+![Register Android](images/android/register.png)
+
+#### 📋 Menu
+
+![Menu Android](images/android/menu.png)
+
+#### 🏨 Room Booking
+
+![Room](images/android/room.png)
+
+#### 💆 Spa Booking
+
+![Spa](images/android/spa.png)
+
+#### 🎤 Conferences & Events
+
+![Conferences](images/android/conferences.png)
+
+---
+
+## 🛠️ Technologies Used
+
+* Java (Swing - Desktop)
+* Android (Java)
+* MySQL Database
+* JDBC
+
+---
+
+## ⚙️ Setup Instructions
+
+1. Clone the repository:
+
+```
+git clone https://github.com/MihaiCovasan/hotel-booking-app.git
+```
+
+2. Open the project:
+
+* Desktop: NetBeans / IntelliJ
+* Mobile: Android Studio
+
+3. Database setup:
+
+* Import `hotel.sql` into MySQL
+* Update database connection settings in the project
+
+---
+
+## 👨‍💻 Author
+
+* Mihai Covasan
+
+---
+
+## ⚡ Notes
+
+* Make sure images are placed correctly in:
+
+  * `images/android/`
+  * `images/desktop/`
+* File names must match exactly with those used in this README
+
+---
+
+## ⭐ Project Status
+
+✔️ Functional Desktop Application
+✔️ Functional Android Application
+✔️ Database integrated
+✔️ Ready for presentation / portfolio
