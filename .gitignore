@@ -1,0 +1,27 @@
+# IntelliJ / Android Studio
+.idea/
+*.iml
+
+# NetBeans
+nbproject/private/
+
+# Build folders
+build/
+dist/
+out/
+
+# Gradle
+.gradle/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# JAR files
+*.jar
+
+# APK files
+*.apk
