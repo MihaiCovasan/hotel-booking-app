@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/hotelicon"
+            android:title="Hotel Home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/room_h"
+            android:title="Room" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/spa"
+            android:title="Spa" />
+
+        <item
+            android:id="@+id/nav_conferences"
+            android:icon="@drawable/conferences"
+            android:title="Events and Conferences" />
+
+        <item
+            android:id="@+id/nav_atraction"
+            android:icon="@drawable/localatraction"
+            android:title="Local attractions" />
+
+    </group>
+</menu>

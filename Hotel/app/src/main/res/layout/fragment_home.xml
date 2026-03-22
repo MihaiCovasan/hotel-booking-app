@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment"
+    android:background="@drawable/gradient_background"
+    >
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="234dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-2dp"
+        android:background="@drawable/hotel" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="284dp"
+        android:textSize="17sp"
+        android:textStyle="bold|italic"
+        android:text="Sunset Beach Club Hotel Apartments is situated in Benalmadena and is close to the area's tourist attractions. It also features a bowling alley, a sauna and an indoor pool.
+
+Staying at the property is fun for the whole family, as kids will love the playground and adults can plan sightseeing trips with the help of the friendly staff at the property's tour desk. Children will always be entertained as there is an on-site games room and a kids club available.
+
+The air-conditioned apartments at Sunset Beach Club Hotel Apartments are elegant, relaxed and modern. Each is equipped with a kitchenette that contains a microwave, a refrigerator and an oven." />
+
+
+</RelativeLayout>

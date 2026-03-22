@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Hotel</string>
+    <string name="title_activity_menu_hotel">MenuHotel</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="gdpr">The term ‘personal data’ is the entryway to the application of the General Data Protection Regulation (GDPR). Only if a processing of data concerns personal data, the General Data Protection Regulation applies. The term is defined in Art. 4 (1). Personal data are any information which are related to an identified or identifiable natural person.
+
+The data subjects are identifiable if they can be directly or indirectly identified, especially by reference to an identifier such as a name, an identification number, location data, an online identifier or one of several special characteristics, which expresses the physical, physiological, genetic, mental, commercial, cultural or social identity of these natural persons. In practice, these also include all data which are or can be assigned to a person in any kind of way. For example, the telephone, credit card or personnel number of a person, account data, number plate, appearance, customer number or address are all personal data.
+
+Since the definition includes “any information,” one must assume that the term “personal data” should be as broadly interpreted as possible. This is also suggested in case law of the European Court of Justice, which also considers less explicit information, such as recordings of work times which include information about the time when an employee begins and ends his work day, as well as breaks or times which do not fall in work time, as personal data. Also, written answers from a candidate during a test and any remarks from the examiner regarding these answers are “personal data” if the candidate can be theoretically identified. The same also applies to IP addresses. If the controller has the legal option to oblige the provider to hand over additional information which enable him to identify the user behind the IP address, this is also personal data. In addition, one must note that personal data need not be objective. Subjective information such as opinions, judgements or estimates can be personal data. Thus, this includes an assessment of creditworthiness of a person or an estimate of work performance by an employer.
+
+Last but not least, the law states that the information for a personnel reference must refer to a natural person. In other words, data protection does not apply to information about legal entities such as corporations, foundations and institutions. For natural persons, on the other hand, protection begins and is extinguished with legal capacity. Basically, a person obtains this capacity with his birth, and loses it upon his death. Data must therefore be assignable to identified or identifiable living persons to be considered personal.
+
+In addition to general personal data, one must consider above all the special categories of personal data (also known as sensitive personal data) which are highly relevant because they are subject to a higher level of protection. These data include genetic, biometric and health data, as well as personal data revealing racial and ethnic origin, political opinions, religious or ideological convictions or trade union membership.</string>
+</resources>

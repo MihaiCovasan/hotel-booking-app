@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ScrollView01"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none" >
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/gradient_background"
+
+            >
+
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="266dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="464dp"
+                android:background="@drawable/bran" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="284dp"
+                android:text="We invite you to experience the history, the myth, the intrigue and the magic of this wonderful place and its Queen. We hope that you will carry the spirit that makes us love Bran Castle with you, always."
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="196dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="374dp"
+                android:layout_marginBottom="160dp"
+                android:background="@drawable/rasnov" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="149dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="573dp"
+                android:text="While it’s possible to explore the fortress independently, going with a guide ensures you hear more facts, details, and historical tidbits. Day trips departing from Brașov typically make stops at Râșnov Fortress, Bran Castle (Dracula’s Castle), and—in some cases— Peles Castle, a neo-Renaissance palace known for its extravagant interiors. Inside Râșnov Fortress, you’ll find a small museum, souvenir shops, and vendors offering activities such as archery and ax-throwing."
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+
+        </RelativeLayout>
+</ScrollView>
